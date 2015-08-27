@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 def selectionSort(input_list):
     for i in range(len(input_list)-1):
         minn = i

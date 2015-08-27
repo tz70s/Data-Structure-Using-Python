@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 def BinarySearchRecursive(input_list,target,high,low):
     mid = (high+low)//2
     if target > input_list[mid]:

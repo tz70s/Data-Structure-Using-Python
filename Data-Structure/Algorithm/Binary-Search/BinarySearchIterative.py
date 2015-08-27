@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 def BinarySearchIterative(input_list,target):
     high = len(input_list)-1
     low = 0
