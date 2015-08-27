@@ -1,9 +1,0 @@
-python3 BinarySearchIterative.py
-sleep 1
-python3 BinarySearchRecursive.py
-echo ""
-sleep 1
-echo ""
-sleep 1
-echo "Finished"
-echo ""
