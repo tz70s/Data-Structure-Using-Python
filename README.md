@@ -5,7 +5,7 @@
 * Note on Hackpad : https://hackpad.com/Data-Structure-Review-GsOiDnY7y8r
 
 
-```Bash
+```Shell
 Hello Python!
 You can fork or clone this practice if you want!
 #using
