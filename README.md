@@ -14,6 +14,7 @@
 #type on the head of .py file
 #! usr/bin/env python3
 chmod +x *.py
+./*.py
 #or type on the command line
 python3 *.py 
 ``` 
