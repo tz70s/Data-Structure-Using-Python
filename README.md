@@ -6,7 +6,7 @@
 
 
 ####
-	Hello World!
+	Hello Python!
 
 ###Python Review
 * My Python Review practicing uses python3 , call it as following
@@ -18,3 +18,8 @@ chmod +x *.py
 #or type on the command line
 python3 *.py 
 ``` 
+
+###Data Structure
+```Bash
+./*.sh
+```
