@@ -5,8 +5,13 @@
 * Note on Hackpad : https://hackpad.com/Data-Structure-Review-GsOiDnY7y8r
 
 
-####
-	Hello Python!
+```Bash
+Hello Python!
+You can fork or clone this practice if you want!
+#using
+git clone https://github.com/tz70s/Python-Lessons.git
+
+```
 
 ###Python Review
 * My Python Review practicing uses python3 , call it as following
