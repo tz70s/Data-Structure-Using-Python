@@ -21,5 +21,6 @@ python3 *.py
 
 ###Data Structure
 ```Bash
+cd ../target folder/
 ./*.sh
 ```
