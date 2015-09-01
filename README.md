@@ -23,6 +23,22 @@ chmod +x *.py
 #or type on the command line
 python3 *.py 
 ``` 
+* You can use the virtualenv to create python3 env
+```Bash
+#create the virtual environment
+virtualenv -p /usr/bin/python3 VENV
+#activate
+cd VENV/bin
+source activate
+#the user will appear (VENV)
+python
+#or
+python --version
+#now you can see the python version is 3.x
+
+#if you want to go back to the real environment of computer
+deactivate
+```
 
 ###Data Structure
 ```Bash
