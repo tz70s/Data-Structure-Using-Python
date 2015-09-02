@@ -46,11 +46,13 @@ cd ../target folder/
 ./*.py
 ```
 
-* Module Should Read
+###Module Should Read
 ```Bash
 #Not Read yet
 Read
+```
 
+```Bash
 #collections
 #os
 #os.path
