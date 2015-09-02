@@ -46,4 +46,15 @@ cd ../target folder/
 ./*.py
 ```
 
+* Module Should Read
+```Bash
+#Not Read yet
+Read
 
+#collections
+#os
+#heapq
+#datetime
+#time
+
+```
