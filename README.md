@@ -3,7 +3,7 @@
 * Reference : [Problem Solving with Algorithms and Data Structures](http://interactivepython.org/runestone/static/pythonds/index.html#)
 <br>
 * Note on Hackpad : [Data Sturcture Note](https://hackpad.com/Data-Structure-Review-GsOiDnY7y8r)
-
+* Module Manual : Library Reference , Global Module Index
 
 ```Shell
 Hello Python!
@@ -45,3 +45,5 @@ deactivate
 cd ../target folder/
 ./*.py
 ```
+
+
