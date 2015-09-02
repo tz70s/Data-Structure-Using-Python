@@ -60,10 +60,11 @@ class UnorderedList:
                 nex = now.getNext()
 
 
-print ("Hello World")
-mylist = UnorderedList()
-for count in range(10):
-    mylist.insert(count)
-mylist.delete()
-mylist.delNumber(5)
-mylist.reveal()
+if __name__ == "__main__":
+    print ("Hello World")
+    mylist = UnorderedList()
+    for count in range(10):
+        mylist.insert(count)
+    mylist.delete()
+    mylist.delNumber(5)
+    mylist.reveal()
