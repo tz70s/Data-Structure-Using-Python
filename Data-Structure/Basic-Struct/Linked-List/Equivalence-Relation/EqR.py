@@ -18,6 +18,7 @@ def main():
     myList.reveal()
     myStack.push(5)
     myStack.push(6)
+    myStack.push(7)
     print(myStack.reveal())
 
 
