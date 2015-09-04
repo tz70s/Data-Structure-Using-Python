@@ -39,11 +39,15 @@ class UnorderedList:
             temp = Node(item)
             self.end.setNext(temp)
             self.end = temp
+
     def reveal(self):
         temp = self.head
+        st = ''
         while temp != None:
-            print (temp.getData())
+            st += str(temp.getData()) + ' -> '
             temp = temp.getNext()
+        print (st)
+
     def search(self, item):
         pos = 1
         temp = self.head
@@ -54,12 +58,14 @@ class UnorderedList:
                 temp = temp.getNext()
                 pos += 1
         raise FullError()
+
     def delete(self):
         temp = self.head
         while temp.getNext() != self.end:
             temp = temp.getNext()
         end = temp
         temp.setNext(None)
+        
     def delNumber(self,item):
         pre = self.head
         now = pre.getNext()
