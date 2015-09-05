@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from operator import attrgetter
 
 class Matrix:
     def __init__(self, row=0, col = 0, value = 0):
@@ -32,15 +33,14 @@ def matInit():
 
     del matlist
     Transpose(spmatlist)
-    
 
 def Transpose(spmat):
     # row -> col , col -> row
     for n in spmat:
         n.row , n.col = n.col , n.row
+    spmat.sort(key = attrgetter('row'))
     for n in spmat:
         print ("row: {0}, col: {1}, value: {2}".format(n.row,n.col,n.value))
-
 
 
 if __name__ == "__main__":
