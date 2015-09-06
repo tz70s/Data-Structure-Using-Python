@@ -20,11 +20,13 @@ def eval():
             st.push(op)
         else:
             postlist.append(op)
+            print (op)
 
-            if st.isEmpty:
+            if st.isEmpty():
                 continue
-            else:
+            elif not st.isEmpty():
                 postlist.append(st.pop())
+                print (st.pop())
 
     print (postlist)
 
