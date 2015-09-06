@@ -1,4 +1,6 @@
+#!/usr/bin/env python3
 import stack
+import queue
 
 st = stack.Stack()
 
