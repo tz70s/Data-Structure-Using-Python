@@ -13,3 +13,19 @@ print (tup.Third)
 # using key-value pair mapping
 
 print ("{First} !{Second} {Third}".format(**tup._asdict()))
+
+hello = ['a','b','c','d','e']
+
+print (hello[2:4])
+
+hello.pop(3)
+
+print (hello)
+
+del hello[3]
+
+print (hello)
+
+hello = hello[::-1]
+
+print (hello)
