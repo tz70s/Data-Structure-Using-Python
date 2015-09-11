@@ -44,6 +44,8 @@ deactivate
 ```Bash
 cd ../target folder/
 ./*.py
+# or Golang file
+go test
 ```
 
 ###Module Should Read
