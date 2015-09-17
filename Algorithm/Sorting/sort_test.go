@@ -21,4 +21,9 @@ func TestSort(t *testing.T) {
 		log.Println("Insertion Sort Success")
 	}
 
+	Li := &List{}
+	Li.list = Newslice(list)
+	Li.MergeSort(0, len(Li.list)-1)
+	fmt.Println(len(Li.list))
+
 }
