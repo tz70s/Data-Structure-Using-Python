@@ -10,20 +10,28 @@ type List struct {
 
 func merge(Llist, Rlist []int) (tmplist []int) {
 	length := len(Llist) + len(Rlist)
-	tmplist = make([]int, length)
+	//tmplist = make([]int, length)
 	lptr := 0
 	rptr := 0
 	count := 0
 	for count < length {
-		if Llist[lptr] <= Rlist[rptr] {
+			if Llist[lptr] <= Rlist[rptr] {
 			tmplist[count] = Llist[lptr]
 			count++
 			lptr++
-		} else {
-			tmplist[count] = Rlist[rptr]
-			count++
-			rptr++
-		}
+			if lptr == len(Llist) {
+				tmplist = append(tmplist,Rlist[rptr:]...)
+				break
+			}
+			} else {
+				tmplist[count] = Rlist[rptr]
+				count++
+				rptr++
+				if rptr == len(Llist) {
+					tmplist = append(tmplist,Llist[lptr:]...)
+					break
+				}
+			}
 	}
 
 	return tmplist
