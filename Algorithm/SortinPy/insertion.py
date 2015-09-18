@@ -1,5 +1,7 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
+import subprocess
+import time
 
 def insertion(li):
     print("Hello World")
@@ -19,4 +21,6 @@ def insertion(li):
 if __name__ == "__main__":
     li = [1,2,4,5,6,7,3,8]
     print(insertion(li))
-    print(len(li))
+    time.sleep(2)
+    subprocess.call("clear")
+    
