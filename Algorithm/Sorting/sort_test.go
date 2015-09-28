@@ -21,6 +21,16 @@ func TestSort(t *testing.T) {
 		log.Println("Insertion Sort Success")
 	}
 
-	//merlist := Newslice(list)
-	MergeSort(sorted, 0, len(list)-1)
+	log.Println("Testing for Merge-sort")
+	merlist := Newslice(list)
+	MergeSort(merlist, 0, len(merlist)-1)
+	fmt.Println(merlist)
+
+	if !Compare(merlist, sorted) {
+		t.Error("Insertion Sort failed")
+	} else {
+		log.Println("original : ", list)
+		log.Println("Merge sort Success")
+	}
+
 }
